@@ -1,0 +1,93 @@
+/* Styling the Play Button  */
+.btn-style{
+    background-image: linear-gradient(90deg,#3A26B1, #C148DF);
+    padding: 1rem;
+    width: 40%;
+    border: none;
+}
+
+/* onHover Style of Play Button */
+.btn-style:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.1);
+	background-image: linear-gradient(90deg,#3A26B1 40%, #C148DF);
+
+}
+
+/* Right Part of the Main Section  */
+.right-block-2{
+    display: inline-block;
+    width: 30%;
+ 
+    padding-left: 1rem;
+}
+
+.p-css{
+    text-align: justify;
+    margin-right: 1rem;
+}
+/* Some Standard CSS for Reusability */
+
+.flex-c-center{
+    align-items: center;
+}
+
+.ml-1{
+    margin-left: 1rem;
+}
+.mt-2{
+    margin-top: 1.5rem;
+}
+
+.bg-color-grey{
+    background-color: #1A1E33;;
+}
+
+/* Standard Code for Reusability */
+
+.abs-top-2{
+    position: absolute;
+    top: 1%;
+}
+
+/* Images in the list */
+.img-50{
+    height: 70px;
+    width: 70px;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+
+}
+
+/* Standard Code for Reusability */
+.ml-2{
+    margin-left: 2rem;
+}
+
+/*  Cold Play Image Dimensions */
+.cold-img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Media Queries for MAX WIDTH  - 818 px */
+@media (max-width:818px){
+    section{
+        display: block!important;
+    }
+    .full{
+        width: 100%;
+    }
+    .setup-full{
+       
+        display: block;
+        width: 100%!important;
+    }
+
+}
+
+/* Media Queries for MAX WIDTH - 818 px */
+@media (max-width:1035px){
+    .right-block-2{
+        font-size: 0.7rem!important;
+    }
+}

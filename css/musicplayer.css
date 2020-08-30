@@ -1,0 +1,683 @@
+/* Importing Font Style - Poppinns */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Basic Setup */
+body{
+    background-color: #17092C;
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting up Heading for Code Reusability */
+.div-heading{
+    display: inline-block;
+    font-family:'Poppins', sans-serif ;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 3rem;
+
+}
+
+/* Setting up Font Size for Code Reusability */
+
+.font-size-small{
+    font-size: 0.8rem;
+}
+
+/* Some Basic CSS Properties for better Code */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.font-style{
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.content-center{
+    text-align: center;
+}
+
+.mb-1{
+    margin-bottom: 1rem;
+}
+
+.box{
+    box-sizing: border-box;
+}
+
+.heading-white{
+    color: white;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.font-size-medium{
+    font-size: 1.5rem;
+}
+
+.color-green{
+    color: #00F1C4;
+}
+
+/* Designing Nav Bar */
+nav{
+    display: flex;
+    align-items: center!important;
+    padding: 0.5rem 0% 0.5rem 2rem;
+    height: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Creating Inline Blocks inside Nav Bar */
+nav div{
+    display: inline-block;
+    color: white;
+}
+
+/* Setting up Padding for Code Reusability */
+.padding-tp{
+    padding: 1rem;
+}
+
+/* Aligning the Items to the left */
+.abs-left{
+    display: flex;
+    align-self: center;
+    position: absolute;
+    right: 3%;
+}
+
+/* Setting up Position for Code Reusability */
+.abs-rt-5{
+    position: absolute;
+    right: 7%;
+}
+
+/* Setting up Position for Code Reusability */
+.abs-top{
+    top:10%;
+}
+
+/* Setting up Position for Code Reusability */
+.abs-top-3{
+    top:3.5%;
+}
+
+/* Brand Logo in the Nav Bar */
+.brand img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+}
+
+/* Different BG Color */
+.bg-color-other{
+    background-color: #1F0541;;
+}
+
+/* Some Basic CSS for Better Code Reusability */
+.brand-name{
+    margin: 0px 2rem 0px 0.5rem;
+}
+
+.m-10{
+    margin: 0 2rem;
+}
+
+.mr-1{
+    margin-right: 0.5rem;
+}
+
+.mr-2{
+    margin-right: 1.5rem;
+}
+
+.abs-top-1{
+    position: absolute;
+    top: 2%;
+}
+
+.mt-1{
+    margin-top: 0.5rem;
+}
+
+.mt-3{
+    margin-top: 3rem;
+}
+
+/* Designing the Search Bar */
+.search-bar{
+    display: inline-flex;
+    padding: 10px 15px;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+    margin: 0.2rem 2rem;
+    border-radius: 7px;
+}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+/* Making Input Better */
+.search-bar input{
+    border: none;
+    background-color: #1F0541;
+}
+
+
+/* Starting with the Main Section  */
+
+.left-block{
+    display: inline-block;
+    width: 60%;
+    height: auto;
+    padding-bottom: 2rem;
+}
+
+/* Setup for the Right Block of the Main Section */
+.right-block{
+    display: inline-block;
+    width: 28%;
+    height: 70em;
+    overflow-y: scroll;
+
+}
+.right-block::-webkit-scrollbar {
+    display: none;
+  }
+/* Top Carousel */
+
+.carousel{
+    box-sizing: border-box;
+    padding: 2rem;
+    height: 18%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+/* Carousel Images */
+.carousel img{
+    height: 80%;
+    width: 30%;
+    margin: 0.5rem;
+    z-index: 5;
+}
+
+/* Animation onHover */
+.zoom-hover img:hover{
+    transition: all 1s ease-in-out;
+    transform: scale(1.2);
+    z-index: 6;
+}
+
+/* Div - Latest Release */
+
+.lat-rel .carousel{
+    flex-wrap: wrap;
+
+}
+
+/* Specific Class for better Design */
+.p-1{
+    position: relative;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;;
+}
+
+/* Assigning Dimensions */
+.p-1 img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Changing Properties of Icons */
+.p-1 i{
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #8ABDD4;
+
+}
+
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Setting Height Width of Singer's Images */
+.singer-img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Managing the Space Properly */
+.pop-artist .flex-row{
+    justify-content: space-around;
+}
+
+
+/* Category Section CSS Styles */
+
+.image{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* Managing Image Properties */
+.image img{
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    margin-right: 1rem;
+    opacity: 0.5;
+}
+
+/* Scaling Image on OnHover */
+.image:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.m-10 .flex-row .text{
+    width: 80%;
+}
+
+/* Div Containing Text */
+.text{
+    position: absolute;
+    color: white;
+    text-align: center;
+    top: 40%;
+    font-family: 'Poppins', sans-serif;;
+    font-weight: 600;
+}
+
+/* Text Over Image */
+.img-series .text{
+    left: 35%;
+    opacity: 1;
+    z-index: 3;
+}
+
+/* Managing width & Transition of Images */
+.img-series img{
+    width:90%;
+    transition: transform 1s ease-in-out
+}
+
+/* Animating the Images */
+.img-series img:hover{
+    transform: scale(1.3);
+    z-index: 2;
+    opacity: 0.5;
+}
+
+/* Setting width Auto for Reusability */
+.wd-auto{
+    width: auto;
+}
+
+
+/* Working with the Right Part of the Main Section  */
+
+/* Managing the Songs's Image */
+.hw-50{
+    height: 40px;
+    width: 40px;
+    margin: 0.5rem;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+/* Center Align in the Flex  */
+.col-center{
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+/* Defining Font Color for Code Reusability  */
+.font-col-grey{
+    color: grey;
+}
+
+/* Music Player Bar */
+
+.bg-grey{
+    width: 75%;
+    margin: auto;
+    background-color: #2C2C2C;
+    color: white;
+}
+
+/* Defining Padding for Code Reusability  */
+
+.pd-2{
+    padding: 1rem;
+}
+
+/* Defining Icon Medium for Code Reusability  */
+
+.icon-size-medium{
+    font-size: 2rem!important;
+}
+
+/* Defininf Icon Large for Code Reusability  */
+.icon-size-large{
+    font-size: 3rem!important;
+}
+
+/* Outer Div to contain Progress Bar */
+.player-bar{
+    position: relative;
+    height: 0.5rem;
+    width: 100%;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+
+/* Inner Div to Show Percentage of Song Played */
+.player-percent{
+    height: 100%;
+    width: 70%;
+    border-radius: 20px;
+    background-color: darkorchid;
+}
+
+/* Making the Progress Bar Animated */
+.player-bar:hover{
+    transition: 1s ease-in-out;
+    transform: scale(1.2);
+}
+
+
+#br-1 img{
+    border-radius: 10px!important;
+}
+
+/* Setting Before Element for the Duration of Song */
+.player-bar::before{
+    content: '1.39';
+    color: grey;
+    font-family: 'Poppins' , sans-serif;
+    margin-left: 0 1rem;
+    position: absolute;
+    top: -100%;
+    left: -10%;
+}
+
+/* Setting Before Element for the Total Time of Song */
+
+.player-bar::after{
+    content: '5.23';
+    color: grey;
+    font-family: 'Poppins' , sans-serif;
+    margin-left: 0 1rem;
+    position: absolute;
+    top: -100%;
+    right: -10%;
+}
+
+.player-settings{
+    box-sizing: border-box;
+    padding: 1rem;
+    width: 50%;
+    margin-left: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.float-left{
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+
+
+/* Music Player Visibility Control */
+
+#player{
+    display: none;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+#player:target{
+    display: block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 100;
+    background-color: #282828;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    animation: fadeIn 1s alternate;
+}
+/* Making a Play Button on OnHover Functionality */
+
+.div-icon{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+/* Positioning the Play Icon */
+.image-text:hover .div-icon{
+    position: absolute;
+    display: block;
+    top: 30%;
+    left: 35%;
+}
+
+/* Reducing Opacity for the Image */
+.image-text:hover img{
+    opacity: 0.5;
+}
+
+
+/* Working with Responsiveness  - Approach : Desktop First*/
+
+/* Media Queries for Screens with MAX - WIDTH - 1136 */
+
+@media(max-width:1136px){
+    .image{
+        font-size: 0.7rem;
+    }
+    .image img{
+        border-radius: 50%;
+        margin-right: 1rem;
+        opacity: 0.5;
+    }
+    .right-block{
+        width: 30%;
+    }
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 1136 */
+
+@media(max-width:1136px){
+    .left-block{
+        width: 65%;
+    }
+    .right-block{
+        width: 35%;
+    }
+    .carousel{
+       
+        padding: 1rem;
+    }
+    .text{
+        font-size: 0.5rem;
+    }
+    .p-1{
+        
+        width: 100%;
+    }
+    .mt-3{
+        margin-top: 0.5rem;
+    }
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 856 */
+
+@media (max-width:856px){
+    .player-settings{
+        margin: auto;
+        
+    } 
+    .player-settings .icon-size-medium{
+        font-size: 1.5rem!important;
+    }
+    .player-settings .icon-size-large{
+        font-size: 2rem!important;
+    }
+    .md-none{
+        display: none;
+    }
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 800 */
+
+@media (max-width:800px){
+    .search-bar{
+        display: none;
+    }
+    
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 690 */
+
+@media (max-width:690px){
+    .player-bar::before{
+        left: -15%;
+    }
+    
+    .player-bar::after{
+
+        right: -15%;
+    }
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 626 */
+
+@media (max-width:626px){
+    .search-bar{
+        display: none;
+    }
+}
+
+/* Media Queries for Screens with MAX - WIDTH - 500 */
+
+@media(max-width:500px){
+    
+    .brand img{
+        height:2rem;
+        width: 2rem;
+        margin-left: 0;
+    }
+    .d-none{
+        display: none!important;
+    }
+    .right-block{
+        width: 0%;
+        overflow: hidden;
+    }
+    .left-block{
+        width: 100%;
+    }
+    .font-size-small{
+        font-size: 0.7rem;
+    }
+    .md-none{
+        display: none!important;
+    }
+}
+
+@media(max-width:500px){
+    .search-bar{
+        display: none;
+    }
+    .brand img{
+        height:2rem;
+        width: 2rem;
+        margin-left: 0;
+    }
+    .d-none{
+        display: none!important;
+    }
+}
+
+
+/* Media Queries for Screens with MAX - WIDTH - 486 */
+
+@media (max-width:486px){
+    .player-bar::before{
+        left: -25%;
+    }
+    
+    .player-bar::after{
+
+        right: -25%;
+    }
+    #player{
+        display: none;
+    }
+    .m-10{
+        margin: 0 3rem;
+    }
+}
+
+@media (max-width:350px){
+.md-none-full{
+    display: none;
+}
+}
+/* Media Queries for Screens with MAX - WIDTH - 350 */
+
+@media (max-width:350px){
+    #player{
+        display: none;
+    }
+    .m-10{
+        font-size: 0.8rem!important;
+        margin: 0 5rem;
+    }
+}

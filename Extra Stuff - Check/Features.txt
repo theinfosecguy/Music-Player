@@ -1,0 +1,7 @@
+1. Responsive Web Design
+2. Top Carousel
+3. Percentage Bar of the Music Player
+4. Bar will open on Click of Image of Song or Name of Song
+6. Button Animation ( Play-All Button )
+7. FavIcon
+
